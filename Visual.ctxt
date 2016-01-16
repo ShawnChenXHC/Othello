@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.target=Visual
+comment0.text=\n\ Write\ a\ description\ of\ class\ Text\ here.\n\ \n\ @author\ (your\ name)\ \n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=x\ y
+comment1.target=Visual(int,\ int)
+comment1.text=\n\ Used\ only\ for\ the\ underlying\ HUD\ of\ the\ Othello\ World.\n\ Not\ meant\ to\ be\ used\ by\ anything\ else.\n\ So\ please\ don't\ use\ it\ for\ anything\ else.\n
+comment2.params=img\ animate
+comment2.target=Visual(greenfoot.GreenfootImage,\ boolean)
+comment2.text=\n\ Creates\ a\ visual\ object\ with\ a\ given\ GreenfootImage.\n\ Can\ choose\ whether\ or\ not\ if\ you\ want\ it\ to\ flash.\n
+comment3.params=
+comment3.target=void\ act()
+comment4.params=text\ x\ y
+comment4.target=void\ paintText(java.lang.String,\ int,\ int)
+comment5.params=img\ x\ y
+comment5.target=void\ paintImage(greenfoot.GreenfootImage,\ int,\ int)
+comment6.params=
+comment6.target=void\ clear()
+comment7.params=
+comment7.target=greenfoot.GreenfootImage\ getDisplay()
+numComments=8

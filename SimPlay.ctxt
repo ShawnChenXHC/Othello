@@ -1,0 +1,35 @@
+#BlueJ class context
+comment0.target=SimPlay
+comment0.text=\n\ Write\ a\ description\ of\ class\ Play\ here.\n\ \n\ @author\ (your\ name)\ \n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=board\ currentPlayer
+comment1.target=SimPlay(int[][],\ int)
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ SimPlay\n
+comment10.params=
+comment10.target=int\ getY()
+comment11.params=
+comment11.target=int[][]\ getBoard()
+comment12.params=
+comment12.target=int\ getCurrentPlayer()
+comment2.params=player\ depth
+comment2.target=int\ bestCase(int,\ int)
+comment2.text=\n\ Returns\ the\ best\ score\ player\ can\ achieve\ in\ depth\ number\ of\ rounds\ should\ both\ players\ play\ their\ most\ optimal\ moves\ each\ round\n\ In\ addition,\ if\ this\ object's\ currentPlayer\ can\ make\ a\ move,\ this\ function\ will\ also\ store\ in\ x_\ and\ y_\ the\ x\ and\ y\ coordinates\n\ that\ the\ current\ player\ must\ play\ in\ order\ to\ get\ that\ best\ score.\n
+comment3.params=attacker\ board\ x\ y\ xDif\ yDif
+comment3.target=void\ claimFor(int,\ int[][],\ int,\ int,\ int,\ int)
+comment3.text=\n\ \n\ North\:\ xDif\ \=\ 0,\ yDif\ \=\ -1;\n\ NorthEast\:\ xDif\ \=\ 1,\ yDif\ \=\ -1;\n\ East\:\ xDif\ \=\ 1,\ yDif\ \=\ 0;\n\ SouthEast\:\ xDif\ \=\ 1,\ yDif\ \=\ 1;\n\ South\:\ xDif\ \=\ 0,\ yDif\ \=\ 1;\n\ SouthWest\:\ xDif\ \=\ -1,\ yDif\ \=\ 1;\n\ West\:\ xDif\ \=\ -1,\ yDif\ \=\ 0;\n\ NorthWest\:\ xDif\ \=\ -1,\ yDif\ \=\ -1;\n\ \n\ @param\ attacker\ The\ integer\ representing\ the\ player\ attempting\ to\ make\ a\ play\n\ @param\ x\ The\ x\ coordinate\ of\ the\ starting\ piece\n\ @param\ y\ The\ y\ coordinate\ of\ the\ starting\ piece\n\ @param\ xDif\ The\ difference\ in\ x\ values\ in\ order\ to\ go\ a\ certain\ direction\n\ @param\ yDif\ The\ difference\ in\ y\ values\ in\ order\ to\ go\ a\ certain\ direction\n\ @return\ A\ 2D\ array\ containing\ all\ of\ the\ coordinates\ of\ pieces\ in\ the\ chain,\ if\ there\ is\ one\n\ \ \ \ \ \ \ \ \ Array\ of\ zero\ length\ is\ returned\ if\ no\ chain\ is\ found\n
+comment4.params=player\ board\ x\ y
+comment4.target=boolean\ checkPlay(int,\ int[][],\ int,\ int)
+comment5.params=attacker\ board\ x\ y\ xDif\ yDif
+comment5.target=boolean\ hasChain(int,\ int[][],\ int,\ int,\ int,\ int)
+comment5.text=\n\ Founds\ out\ whether\ or\ not\ if\ there\ is\ a\ chain\ for\ the\ attacker\ to\n\ claim\ in\ a\ certain\ direction.\n\ Below\ is\ a\ guide\ to\ the\ directions\:\n\ \n\ North\:\ xDif\ \=\ 0,\ yDif\ \=\ -1;\n\ NorthEast\:\ xDif\ \=\ 1,\ yDif\ \=\ -1;\n\ East\:\ xDif\ \=\ 1,\ yDif\ \=\ 0;\n\ SouthEast\:\ xDif\ \=\ 1,\ yDif\ \=\ 1;\n\ South\:\ xDif\ \=\ 0,\ yDif\ \=\ 1;\n\ SouthWest\:\ xDif\ \=\ -1,\ yDif\ \=\ 1;\n\ West\:\ xDif\ \=\ -1,\ yDif\ \=\ 0;\n\ NorthWest\:\ xDif\ \=\ -1,\ yDif\ \=\ -1;\n\ \n\ @param\ attacker\ The\ integer\ representing\ the\ player\ attempting\ to\ make\ a\ play\n\ @param\ x\ The\ x\ coordinate\ of\ the\ starting\ piece\n\ @param\ y\ The\ y\ coordinate\ of\ the\ starting\ piece\n\ @param\ xDif\ The\ difference\ in\ x\ values\ in\ order\ to\ go\ a\ certain\ direction\n\ @param\ yDif\ The\ difference\ in\ y\ values\ in\ order\ to\ go\ a\ certain\ direction\n\ @return\ true\ if\ there\ is\ a\ chain,\ false\ otherwise\n
+comment6.params=x\ y
+comment6.target=boolean\ canAttempt(int,\ int)
+comment6.text=\n\ Determines\ whether\ or\ not\ if\ currentPlayer_\ can\ attempt\ a\ play\ at\ the\ space\ (x,\ y)\n\ on\ board_.\n\ \n\ canAttempt\ returns\ true\ if\:\n\ \ \ \ -\ (x,\ y)\ is\ an\ empty\ space\ and\n\ \ \ \ -\ At\ least\ one\ of\ the\ squares\ surrounding\ (x,\ y)\ is\ within\ the\ bounds\ \n\ \ \ \ \ \ of\ the\ board\ and\ belongs\ to\ the\ opponent\ of\ the\ current\ player\n\ canAttempt\ returns\ false\ otherwise\n\ \n\ Requires\ that\ (x,\ y)\ is\ within\ the\ bounds\ of\ board_.\n\ \n\ @param\ x\ The\ x\ coordinates\ of\ the\ space\n\ @param\ y\ The\ y\ coordinates\ of\ the\ space\n
+comment7.params=player
+comment7.target=int\ getScore(int)
+comment7.text=\n\ Returns\ the\ total\ number\ of\ squares\ in\ this\ SimPlay's\ board\ that\ is\ of\ player's\ colour.\n\ That\ is\ to\ say,\ returns\ the\ total\ number\ of\ elements\ in\ SimPlay's\ board\ that\ is\ equal\n\ to\ player.\n\ \n\ @param\ player\ The\ number\ representing\ the\ player\ that\ this\ function\ is\ going\ to\ find\ the\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ the\ score\ of.\n
+comment8.params=
+comment8.target=int[][]\ copyBoard()
+comment8.text=\n\ Creates\ a\ deep\ copy\ of\ this\ SimPlay's\ board_\n\ \n\ @return\ A\ 2D\ int\ array\ representing\ this\ SimPlay's\ board\n
+comment9.params=
+comment9.target=int\ getX()
+numComments=13

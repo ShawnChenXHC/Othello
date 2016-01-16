@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=OthelloInterface
+comment0.text=\n\ Write\ a\ description\ of\ interface\ OthelloInterface\ here.\n\ \n\ @author\ (your\ name)\ \n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=x\ y
+comment1.target=void\ claimForPlayerOneVisually(int,\ int)
+comment2.params=x\ y
+comment2.target=void\ claimForPlayerTwoVisually(int,\ int)
+comment3.params=
+comment3.target=void\ switchPlayers()
+comment4.params=
+comment4.target=void\ forcedSwitchPlayers()
+comment5.params=p1\ p2
+comment5.target=void\ updateScores(int,\ int)
+comment6.params=winner
+comment6.target=void\ endGame(int)
+numComments=7

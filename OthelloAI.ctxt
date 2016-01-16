@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=OthelloAI
+comment0.text=\n\ Write\ a\ description\ of\ class\ OthelloAI\ here.\n\ \n\ @author\ (your\ name)\ \n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=oc\ playerNum\ depth
+comment1.target=OthelloAI(OthelloController,\ int,\ int)
+comment2.params=
+comment2.target=OthelloController\ getController()
+comment3.params=
+comment3.target=int\ getPlayerNum()
+comment4.params=
+comment4.target=void\ play()
+numComments=5

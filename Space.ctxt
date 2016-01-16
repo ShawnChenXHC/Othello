@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=Space
+comment0.text=\n\ Write\ a\ description\ of\ class\ emptySpace\ here.\n\ \n\ @author\ (your\ name)\ \n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=x\ y
+comment1.target=Space(int,\ int)
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\n\ Act\ -\ do\ whatever\ the\ emptySpace\ wants\ to\ do.\ This\ method\ is\ called\ whenever\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\n
+comment3.params=
+comment3.target=int\ getX()
+comment4.params=
+comment4.target=int\ getY()
+comment5.params=
+comment5.target=void\ turnWhite()
+comment6.params=
+comment6.target=void\ turnBlack()
+numComments=7
